@@ -365,7 +365,7 @@ export default function Work() {
         </h2>
         <h2 style={{
           fontSize: "clamp(28px, 3.8vw, 56px)", fontWeight: 600,
-          color: "rgba(255,255,255,0.7)", lineHeight: 1.06,
+          color: "rgba(255,255,255,0.5)", lineHeight: 1.06,
           letterSpacing: "-0.025em", fontFamily: "Poppins, sans-serif",
         }}>
           that I'm proud of.
