@@ -171,10 +171,7 @@ export default function About() {
 
           <Reveal inView={sectionInView} delay={330} from="right">
             <p className="text-md leading-[2] text-white/70 max-w-[480px] mb-10 tracking-[0.01em]">
-              I'm a Web Developer with a passion for building visually immersive
-              digital experiences. I bridge the gap between design and engineering,
-              turning ideas into interactive, performant web products that feel as good
-              as they look.
+              I got into web development because I enjoy turning complex ideas into things people can actually use. My approach is simple: understand the problem first, then build something that genuinely addresses it — not just something that ships fast and breaks later.
             </p>
           </Reveal>
 
