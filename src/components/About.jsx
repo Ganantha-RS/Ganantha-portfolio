@@ -128,7 +128,7 @@ export default function About() {
         </div>
       </Reveal>
 
-      <div className="about-grid max-w-[1180px] mx-auto px-8 grid grid-cols-2 gap-20 items-start mb-20">
+      <div className="about-grid max-w-[1200px] mx-auto px-8 grid grid-cols-2 gap-20 items-start mb-20">
         <div className="flex flex-col items-center">
           <Reveal inView={sectionInView} delay={150} from="left">
          <ProfileCard
