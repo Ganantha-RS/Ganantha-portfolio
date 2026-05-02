@@ -157,7 +157,7 @@ export default function About() {
             <h2 className="text-[clamp(32px,3.8vw,56px)] font-semibold text-white/90 leading-[1.06] tracking-[-0.025em] mb-1">
               Writing code.
             </h2>
-            <h2 className="text-[clamp(32px,3.8vw,56px)] font-semibold text-white/50 leading-[1.06] tracking-[-0.025em] mb-7">
+            <h2 className="text-[clamp(32px,3.8vw,56px)] font-semibold text-white/40 leading-[1.06] tracking-[-0.025em] mb-7">
               Solving problems. Shipping products.
             </h2>
           </Reveal>
