@@ -82,7 +82,7 @@ const TECH_LOOP = [...TECH, ...TECH];
 
 const FACTS = [
   { label: "CURRENTLY", value: "Building & open to remote work" },
-  { label: "OBSESSED WITH", value: "Building smooth, interactive, and visually engaging interfaces" },
+  { label: "OBSESSED WITH", value: "Always curious about new technologies and excited to keep learning" },
   { label: "EDUCATION", value: "Informatics — Jakarta, 2024" },
   { label: "LANGUAGES", value: "Indonesian · English" },
   { label: "STATUS", value: "Open to work", green: true },
@@ -128,7 +128,7 @@ export default function About() {
         </div>
       </Reveal>
 
-      <div className="about-grid max-w-[1160px] mx-auto px-8 grid grid-cols-2 gap-20 items-start mb-20">
+      <div className="about-grid max-w-[1180px] mx-auto px-8 grid grid-cols-2 gap-20 items-start mb-20">
         <div className="flex flex-col items-center">
           <Reveal inView={sectionInView} delay={150} from="left">
          <ProfileCard
@@ -171,7 +171,7 @@ export default function About() {
 
           <Reveal inView={sectionInView} delay={330} from="right">
             <p className="text-md leading-[2] text-white/70 max-w-[480px] mb-10 tracking-[0.01em]">
-              I got into web development because I enjoy turning complex ideas into things people can actually use. My approach is simple: understand the problem first, then build something that genuinely addresses it not just something that ships fast and breaks later.
+             Saya adalah seseorang yang senang mengikuti perkembangan teknologi; selalu ada hal baru untuk dipelajari, dan itulah yang membuat saya terus termotivasi. Saya terjun ke pengembangan web karena saya menikmati mengubah ide-ide kompleks menjadi sesuatu yang benar-benar dapat digunakan orang. Pendekatan saya sederhana: pahami masalahnya terlebih dahulu, lalu bangun sesuatu yang benar-benar mengatasinya.
             </p>
           </Reveal>
 
