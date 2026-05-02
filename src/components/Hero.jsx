@@ -200,8 +200,7 @@ export default function Hero({ loaded }) {
                 className="text-white/40 text-md leading-relaxed max-w-xl mb-10 text-center md:text-left"
                 style={{ letterSpacing: "0.02em" }}
               >
-                Crafting digital experiences at the intersection of
-                design and code. Based in Jakarta, Indonesia.
+Web Developer turning complex problems into clean, performant web solutions. Based in Jakarta, Indonesia
               </p>
             </Reveal>
 
