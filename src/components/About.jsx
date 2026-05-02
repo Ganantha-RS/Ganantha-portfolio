@@ -171,7 +171,7 @@ export default function About() {
 
           <Reveal inView={sectionInView} delay={330} from="right">
             <p className="text-md leading-[2] text-white/70 max-w-[480px] mb-10 tracking-[0.01em]">
-             Saya adalah seseorang yang senang mengikuti perkembangan teknologi; selalu ada hal baru untuk dipelajari, dan itulah yang membuat saya terus termotivasi. Saya terjun ke pengembangan web karena saya menikmati mengubah ide-ide kompleks menjadi sesuatu yang benar-benar dapat digunakan orang. Pendekatan saya sederhana: pahami masalahnya terlebih dahulu, lalu bangun sesuatu yang benar-benar mengatasinya.
+             I'm someone who loves keeping up with how technology evolves there's always something new to learn, and that's exactly what keeps me going. I got into web development because I enjoy turning complex ideas into things people can actually use. My approach is simple: understand the problem first, then build something that genuinely addresses it.
             </p>
           </Reveal>
 
