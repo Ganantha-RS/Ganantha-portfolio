@@ -171,7 +171,7 @@ export default function About() {
 
           <Reveal inView={sectionInView} delay={330} from="right">
             <p className="text-md leading-[2] text-white/70 max-w-[480px] mb-10 tracking-[0.01em]">
-              I got into web development because I enjoy turning complex ideas into things people can actually use. My approach is simple: understand the problem first, then build something that genuinely addresses it — not just something that ships fast and breaks later.
+              I got into web development because I enjoy turning complex ideas into things people can actually use. My approach is simple: understand the problem first, then build something that genuinely addresses it not just something that ships fast and breaks later.
             </p>
           </Reveal>
 
