@@ -155,10 +155,10 @@ export default function About() {
 
           <Reveal inView={sectionInView} delay={200} from="right">
             <h2 className="text-[clamp(32px,3.8vw,56px)] font-semibold text-white/90 leading-[1.06] tracking-[-0.025em] mb-1">
-              Crafting the web
+              Writing code.
             </h2>
-            <h2 className="text-[clamp(32px,3.8vw,56px)] font-semibold text-white/30 leading-[1.06] tracking-[-0.025em] mb-7">
-              one pixel at a time.
+            <h2 className="text-[clamp(32px,3.8vw,56px)] font-semibold text-white/50 leading-[1.06] tracking-[-0.025em] mb-7">
+              Solving problems. Shipping products.
             </h2>
           </Reveal>
 
