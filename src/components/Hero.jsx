@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import Particles from "./ui/Particles";
+import { lazy, Suspense } from "react";
+const Particles = lazy(() => import("./ui/Particles"));
 import "@fontsource/poppins";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
@@ -117,15 +118,17 @@ export default function Hero({ loaded }) {
         className="relative h-screen overflow-hidden bg-black"
       >
         <div className="absolute inset-0 z-20 pointer-events-none">
-          <Particles
-            particleCount={300}
-            particleSpread={10}
-            speed={0.2}
-            moveParticlesOnHover={true}
-            particleHoverFactor={1}
-            alphaParticles={true}
-            particleColors={["#888888"]}
-          />
+          <Suspense fallback={null}>   {/* ← tambahin ini */}
+            <Particles
+              particleCount={300}        {/* ← kurangin dari 500 */}
+              particleSpread={10}
+              speed={0.2}
+              moveParticlesOnHover={true}
+              particleHoverFactor={1}
+              alphaParticles={true}
+              particleColors={["#888888"]}
+            />
+          </Suspense>                   {/* ← tambahin ini */}
         </div>
 
         <div
