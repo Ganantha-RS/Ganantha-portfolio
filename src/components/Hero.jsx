@@ -118,7 +118,7 @@ export default function Hero({ loaded }) {
       >
         <div className="absolute inset-0 z-20 pointer-events-none">
           <Particles
-            particleCount={500}
+            particleCount={300}
             particleSpread={10}
             speed={0.2}
             moveParticlesOnHover={true}
